@@ -3,10 +3,10 @@
 
 body{
     color: #393d41;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.65;
     font-family: 'Open Sans';
-    text-align: center;
+    /* text-align: center; */
 }
 
 
@@ -45,16 +45,35 @@ h3{
 }
 
 p{
-    font-family: 'Montserrat', sans-serif;
-    padding: 1em;
+    padding: 1em 0;
     font-size: 1.4em;
 }
 
 main{
     background-image: url(../images/banner.jpg) ;
     background-size: cover;
-    padding: 2em 1em;
-    margin-bottom: 2em;
+    padding: 10em 1em;
+    /* margin-bottom: 2em; */
+    text-align: center;
+}
+
+main p{
+    padding: 1em 6em;
+}
+
+.imgCont{
+    display: inline-block;
+    width: 49%;
+}
+
+article{
+    font-size: 0.9em;
+    /* text-align: left; */
+}
+.articleContainer{
+    display: inline-block;
+    width: 49%;
+    /* text-align: left; */
 }
 
 article img{
@@ -81,12 +100,12 @@ button{
     color: white;
     padding: 2em 0;
     font-family: 'Open Sans';
+    text-align: center;
     
 }
 
 .testimonials span{
     font-style: italic;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .testimonials h3{
@@ -101,6 +120,7 @@ button{
     width: 90%;
     margin: 2em auto;
     border: 1px #dee1e3 solid;
+    text-align: center;
 }
 
 .otherArticles img{
