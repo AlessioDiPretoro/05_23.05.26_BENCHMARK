@@ -45,6 +45,7 @@ h3{
 }
 
 p{
+    font-family: 'Montserrat', sans-serif;
     padding: 1em 0;
     font-size: 1.4em;
 }
@@ -64,22 +65,23 @@ main p{
 .imgCont{
     display: inline-block;
     width: 49%;
+    text-align: right;
 }
 
-article{
+.artCont{
     font-size: 0.9em;
-    /* text-align: left; */
+    margin: 5em 0;
 }
 .articleContainer{
     display: inline-block;
     width: 49%;
-    /* text-align: left; */
+
 }
 
-article img{
-    width: 70%;
+.artCont img{
+    width: 50%;
     border-radius: 50%;
-    margin-bottom: 1em;
+    margin-right:5em;
 }
 
 button{
@@ -98,7 +100,7 @@ button{
 .testimonials{
     background-color: #e22d0e;
     color: white;
-    padding: 2em 0;
+    padding: 6em 0;
     font-family: 'Open Sans';
     text-align: center;
     
@@ -106,6 +108,7 @@ button{
 
 .testimonials span{
     font-style: italic;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .testimonials h3{
@@ -115,22 +118,46 @@ button{
     font-size: 0.8em;
 }
 
-.otherArticles{
-    font-size: 0.8em;
-    width: 90%;
+.otherArticle{
+    /* width: 90%; */
     margin: 2em auto;
-    border: 1px #dee1e3 solid;
     text-align: center;
+    display: inline-block;
 }
 
+.otherArticles{
+    width: 30%;
+    /* min-width: 30%; */
+    font-size: 0.8em;
+    display: inline-block;
+    border: 1px #dee1e3 solid;
+}
 .otherArticles img{
-width: 100%;
+max-width: 100%;
+height: 250px;
 }
 
 
+.otherImg1, .otherImg2, .otherImg3{
+    background-size: cover;
+    padding: 30%;
+    margin-bottom: 1em;
+}
+.otherImg1{
+    background-image: url(../images/foto1.jpg);
+}
+.otherImg2{
+    background-image: url(../images/foto2.jpg);
+}
+.otherImg3{
+    background-image: url(../images/foto3.jpg);
+}
 
 
-
+.footer{
+    margin-left: 40%;
+    margin-right: 40%;
+}
 
 footer{
     color: #c8e7f0;
