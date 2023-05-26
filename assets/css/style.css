@@ -145,7 +145,12 @@ footer hr{
 
 footer p{
     font-size: 1em;
+    padding: 1.5em 0;
+    display: inline-block;
     border-top: 1px solid #c8e7f0;
+}
+footer li:last-child{
+    margin-bottom: 1.5em;
 }
 
 
