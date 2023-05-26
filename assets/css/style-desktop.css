@@ -20,6 +20,10 @@ header img{
     max-width: 200px;
 }
 
+li{
+    list-style-type: none;
+}
+
 h1{
     font-size: 2.4em;
     font-family: 'Montserrat', sans-serif;
@@ -155,18 +159,20 @@ height: 250px;
 
 
 .footer{
-    margin-left: 40%;
-    margin-right: 40%;
+    display: inline-block;
+    text-align: left;
+
 }
 
 footer{
     color: #c8e7f0;
     background-color: #25a2c3;
     padding: 2em 0;
+    text-align: center;
 }
 
 footer ul{
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 footer i{
@@ -177,13 +183,9 @@ footer a{
     color: #c8e7f0;
 }
 
-footer hr{
-    width: 50%;
-    color: #c8e7f0;
-}
-
 footer p{
-    font-size: 1em;
+    font-size: 0.8em;
+    border-top: 1px solid #c8e7f0;
 }
 
 

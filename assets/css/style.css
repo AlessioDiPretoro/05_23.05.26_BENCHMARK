@@ -20,6 +20,10 @@ header img{
     max-width: 200px;
 }
 
+li{
+    list-style-type: none;
+}
+
 h1{
     font-size: 2.4em;
     font-family: 'Montserrat', sans-serif;
@@ -110,7 +114,11 @@ width: 100%;
 
 
 
+.footer{
 
+    display: inline-block;
+    /* text-align: left; */
+}
 
 footer{
     color: #c8e7f0;
@@ -137,6 +145,7 @@ footer hr{
 
 footer p{
     font-size: 1em;
+    border-top: 1px solid #c8e7f0;
 }
 
 
